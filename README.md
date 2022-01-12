@@ -1,1 +1,1 @@
-# landing-page
+In this project I will demonstrate my knowledge of flexbox by creating a Landing Page.
