@@ -11,6 +11,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    padding: 10px 125px;
 }
 
 .logo {
@@ -48,26 +49,39 @@ a {
     display: flex;
     flex: 1;
     justify-content: space-between;
+    padding: 75px 125px;
 }
 
 .hero-text {
     display: flex;
     flex-direction: column;
     flex: 1 1 0;
+    padding-right: 50px;
 }
 
 .hero-image {
     flex: 1 1 0;
 }
 
-button {
+.hero-button {
     color: white;
     background-color: #3882F6;
-    border-radius: 8px;
+    display: inline-block;
+    padding: 5px 2px;
+    margin: 5px 0; 
+    border: none;
+    border-radius:5px;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align:center;
+    max-width: 80px;
 }
 
 .info-header {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
@@ -81,12 +95,16 @@ button {
 .image {
     height: 100px;
     width: 100px;
+    border-radius: 5px;
+    border: 1px solid #3882F6;
+    margin: 3px;
 }
 
 .info {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 30px;
     gap: 52px;
 }
 
@@ -95,6 +113,9 @@ button {
 }
 
 .quote {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     background-color: #E5E7EB;
     padding: 50px 200px;
     flex: 1;
@@ -116,19 +137,40 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 30px 125px;
     flex: 1;
 }
 
 .action-container {
+    flex: 1;
     color: white;
     background-color: #3882F6;
+    padding: 30px 80px;
+    border-radius: 5px;
     display: flex;
     justify-content: space-between;
+}
+
+.action-button {
+    flex: 1;
+    color: white;
+    background-color: #3882F6;
+    display: inline-block;
+    padding: 5px 2px;
+    margin: 5px 0; 
+    border: 1px solid white;
+    border-radius:5px;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align:center;
+    max-width: 80px;
+    min-width: 80px;
 }
 
 .footer {
     color: white;
     background-color: #1F2937;
+    padding: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
